@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+color: goldenrod;
+margin-top: 20px;
+
+}
+ul{
+    list-style: none;
+margin: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    margin: 10px;
+    font-size: 20px;
+}
+h2{
+    margin-bottom: 20px;
+    color: gold;
+}
+#menu{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://kor.ill.in.ua/m/1200x0/2505192.jpg');
+}
+.bg-t1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://cdn.forbes.ru/forbes-static/c/608x406/new/2023/04/1-GettyImages-962357174-642a9b78a995e.webp');
+
+}
+
+.bg-t2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://cdn.forbes.ru/forbes-static/c/608x406/new/2023/04/2-GettyImages-1270402307-642a9b99325f3.webp');
+
+}
+
+.bg-t3{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://cdn.forbes.ru/forbes-static/c/608x406/new/2023/04/3-GettyImages-1148064841-642a9bad38c56.webp');
+background-position: top;
+}
